@@ -4,7 +4,7 @@ unitest angular on docker image
 - support nodejs version 15.x
 - support angular last version at 12.0.x
 
-<img src="./img/ter-exec.png">
+<img src="https://raw.githubusercontent.com/tarathep/angular-unittest-docker/main/img/ter-exec.png" width="100%">
 
 **Add line below into karma.conf.js**
 
@@ -75,5 +75,5 @@ docker run -it --rm -v $PWD:/app kietara/angular-unittest:1.0.1 npm i&&ng test -
 
 **Report at /coverage/projectname/**
 
-<img src="./img/output-cov.png">
+<img src="https://raw.githubusercontent.com/tarathep/angular-unittest-docker/main/img/output-cov.png" width="100%">
 
